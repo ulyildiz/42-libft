@@ -6,7 +6,7 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 08:40:15 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/21 18:09:14 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/22 00:32:29 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static int	ft_order(int n)
 	i = 0;
 	if (n == 0)
 		return (1);
-	while (j > 1 || j < -1)
+	while (j >= 1 || j <= -1)
 	{
 		j /= 10;
 		i++;
@@ -53,7 +53,6 @@ char	*ft_itoa(int n)
 	while (n > 0)
 	{
 		array[--j] = (n % 10) + '0';
-		
 		n /= 10;
 	}
 	return (array);
