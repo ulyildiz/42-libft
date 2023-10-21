@@ -6,7 +6,7 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 17:59:03 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/20 08:27:51 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/21 10:56:39 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 		return (NULL);
 	i = 0;
 	arr = (char *)malloc(ft_strlen(s) + 1);
+	if (arr == NULL)
+		return (NULL);
 	while (s[i] != '\0')
 	{
 		arr[i] = f(i, s[i]);

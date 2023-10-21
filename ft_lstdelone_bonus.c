@@ -6,7 +6,7 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 17:20:26 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/20 05:17:24 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/21 10:37:00 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
+	if (lst == NULL)
+		return ;
 	del(lst -> content);
 	free(lst);
 }
