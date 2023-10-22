@@ -57,3 +57,4 @@ dkms.conf
 #Extra
 .DS_Store
 .vscode
+main.c
