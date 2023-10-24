@@ -6,7 +6,7 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 23:15:53 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/19 23:45:03 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/24 17:42:17 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,11 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		ft_memcpy(dst, src, len);
 	else if (dst > src)
 	{
-		while (len--)
+		while (len)
+		{
 			((unsigned char *)dst)[len] = ((unsigned char *)src)[len];
+			len--;
+		}
 	}
 	return (dst);
 }

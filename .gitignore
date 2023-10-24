@@ -58,3 +58,5 @@ dkms.conf
 .DS_Store
 .vscode
 main.c
+.gitignore
+*.md
