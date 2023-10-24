@@ -6,7 +6,7 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 16:26:25 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/24 22:04:06 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/24 22:09:39 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
 
-	i = 2;
+	i = 0;
 	if (dstsize > 0)
 	{
 		while (src[i] != '\0' && i < (dstsize - 1))
