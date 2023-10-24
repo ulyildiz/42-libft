@@ -6,11 +6,11 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 23:04:09 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/18 08:26:00 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/24 15:36:50 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {

@@ -6,11 +6,11 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 22:52:34 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/15 18:46:51 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/24 15:37:47 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 void	ft_bzero(void *s, size_t n)
 {

@@ -6,11 +6,11 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 16:27:28 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/17 16:43:42 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/24 15:35:38 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 size_t	ft_strlen(const char *s)
 {
