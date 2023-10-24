@@ -6,7 +6,7 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 01:22:52 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/18 09:24:46 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/25 00:02:05 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,4 @@ char	*ft_strdup(const char *s1)
 	s2[i] = '\0';
 	return (s2);
 }
+
