@@ -6,7 +6,7 @@
 /*   By: ulyildiz <ulyildiz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 22:49:21 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/10/24 15:22:22 by ulyildiz         ###   ########.fr       */
+/*   Updated: 2023/10/24 15:41:48 by ulyildiz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,9 +73,12 @@ char	**ft_split(const char *s, char c)
 		while (*s == c && *s != '\0')
 			s++;
 		if (*s != c && *s != '\0')
-			array[j++] = get_mem(s, c);
-		if (array[j] == NULL)
-			return (get_free(array, 0));
+		{
+			array[j] = get_mem(s, c);
+			if (array[j] == NULL)
+				return (get_free(array, 0));
+			j++;
+		}
 		while (*s != c && *s != '\0')
 			s++;
 	}
