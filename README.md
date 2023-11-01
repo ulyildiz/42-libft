@@ -91,7 +91,7 @@ yaparak structtımızı kullanmamız gerektiğinde uzun şeklinden ziyade
 dememiz yeterli olacaktır.
 
 ## **Malloc/Free**
-Malloc fonksiyonu bize Heap bellek ([bknz. bellek hakkında bilgiler]/(https://medium.com/@memrekaraaslan/nedir-bu-memory-stack-heap-memory-leak-memory-management-c3c14d1c3e6e)[bknz. bellek 
+Malloc fonksiyonu bize Heap bellek ([bknz. bellek hakkında bilgiler](https://medium.com/@memrekaraaslan/nedir-bu-memory-stack-heap-memory-leak-memory-management-c3c14d1c3e6e)/[bknz. bellek 
 hakkında genel bilgiler(2)](https://www.geeksforgeeks.org/memory-layout-of-c-program/)) üzerinden yer tahsili sağlar. Free fonksiyonu ile de bize tahsil edilen belleği serbest bırakırız ama içindeki değere karışmayız.
 ### **Malloc**
 Malloc normal durumda size void pointer döndürür. Biz bunu baştaki parantez ile type casting yaparak istediğim veri tipine atarız. Fonksiyonun tanımı ise
